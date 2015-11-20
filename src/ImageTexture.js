@@ -1,4 +1,5 @@
-/*global BABYLON*/
+import BABYLON from 'babylonjs';
+
 class ImageTexture extends BABYLON.Texture {
   constructor (img, scene) {
     super(null, scene);
